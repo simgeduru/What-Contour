@@ -1,6 +1,6 @@
 import numpy as np
 import cv2 as cv
-im = cv.imread('dersresim2.jpg')
+im = cv.imread('file_path')
 assert im is not None, "file could not be read, check with os.path.exists()"
 
 imgray = cv.cvtColor(im, cv.COLOR_BGR2GRAY)
